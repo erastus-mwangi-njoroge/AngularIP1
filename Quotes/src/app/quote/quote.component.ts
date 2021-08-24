@@ -9,9 +9,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, 'Kobe Bryant', "“Everyone has talent, the difference is hunger,how much do you want it.", new Date(2021, 1, 25)),
-    new Quote(2, 'Solomon ', "“I am the greatest me their will ever be”", new Date(2021, 1, 12)),
-    new Quote(2, 'Sonko', "“Power comes and goes, but the people shall remain”", new Date(2021, 1, 12)),
+    new Quote(1, 'Meir Liraz', "“Look for opportunities in every change in your life.", new Date(2021, 8, 25)),
+    new Quote(2, 'Gary Keller', "“Life is a question and how we live it is our answer.”", new Date(2021, 4, 11)),
+    new Quote(3, 'William Arthur Ward', "“Persist while others are quitting.”", new Date(2021, 1, 12)),
+    new Quote(4, 'Hal Elrod', "“Mornings contain the secret to an extraordinarily successful life.", new Date(2021, 8, 25)),
+    new Quote(5, 'Paulo Braga', "“The desire to live a purposeful life, I truly believe, resides in all humans.”", new Date(2021, 4, 11)),
+    new Quote(6, 'Janet Springer', "“Little decisions you make alter your life, but they rarely do so all at once.”", new Date(2021, 1, 12)),
   ];
 
 
